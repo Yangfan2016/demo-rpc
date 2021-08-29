@@ -1,0 +1,20 @@
+// 协议 proto 版本 3
+syntax="proto3";
+
+// 包名  namespace
+package hello;
+
+// 服务
+service HelloYeah{
+    // 方法
+    rpc sayHello(HelloReq)returns (HelloRes){}
+}
+
+// 接口定义
+message HelloReq{
+    string name=1;
+    int32 age=2;
+}
+message HelloRes{
+    string content=1;
+}
