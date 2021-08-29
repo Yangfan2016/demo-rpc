@@ -30,3 +30,8 @@ python -m grpc_tools.protoc --python_out=.  --grpc_python_out=.  -I. hello.proto
 # --grpc_python_out=. : 编译生成处理 grpc 相关的代码的路径, 这里生
 
 ```
+
+
+### ref
+
+https://www.bilibili.com/video/BV1NL4y1v7YA?p=3
