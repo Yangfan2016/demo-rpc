@@ -1,6 +1,6 @@
 const grpc = require("grpc");
-const messages = require("../hello_pb");
-const services = require("../hello_grpc_pb");
+const messages = require("./hello_pb");
+const services = require("./hello_grpc_pb");
 
 function main() {
     const server = new grpc.Server();
